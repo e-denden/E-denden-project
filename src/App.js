@@ -7,6 +7,7 @@ import Main from "./components/main/Main";
 export default function App(){
     return (
     <div className="app-container">
+        {/* main test */}
         <Switch>
             <Route exact path="/">
                 <Main />
