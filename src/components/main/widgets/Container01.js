@@ -57,13 +57,13 @@ export default function Container01() {
     return (
     <>
     <div className="relative w-full h-screen flex justify-center items-center">
-        {/* 상담대표전화 */}
+        {/* 상담대표전화
         <div className="absolute right-3 sm:right-32 md:right-60 top-5">
             <div className="flex flex-col items-end">
                 <img src={item01Png} alt="Counseling Phone img" className="w-8/12 md:w-auto"/>
                 <span className="font-noto font-medium color-blue text-sm md:text-base">국가공인 자격을 취득한 전문대출 상담사가 상담해드립니다.</span>
             </div>
-        </div>
+        </div> */}
         <div className="flex flex-col items-center">
             <img src={item02Png} alt="item-02-img" className="w-8/12 sm:w-auto"/>
             <div className="relative hidden sm:flex justify-end overflow-hidden" style={{width: "550px"}}>
