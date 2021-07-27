@@ -41,7 +41,7 @@ export default function FilterModal({isOpened, setIsOpened}) {
       payload: {
         minInterestRate: filterInput.minInterestRate,
         maxInterestRate: !filterInput.maxInterestRate ? 100 : filterInput.maxInterestRate,
-        minMaxLimit: minMaxLimit,
+        minMaxLimit: minMaxLimit*10000,
         maxMaxLimit: !maxMaxLimit ? 1000000000 : maxMaxLimit*10000,
         minRepaymentPeriod: 0,
         maxRepaymentPeriod: 0
