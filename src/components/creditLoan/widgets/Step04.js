@@ -20,7 +20,7 @@ export default function Step04({ setIsFinished, setUserGrade }) {
       alert("인증번호를 입력해주세요!");
       return false;
     }
-    userInfoState.annualIncome = Number(userInfoState.annualIncome.replace(/","/gi,"")+"0000");
+    userInfoState.annualIncome = Number(userInfoState.annualIncome.replace(/,/gi,"")+"0000");
     if(userInfoState.annualIncome > 35000000) setUserGrade(1);
     if(userInfoState.annualIncome <= 35000000) setUserGrade(3);
     if(userInfoState.annualIncome <= 28000000) setUserGrade(5);
