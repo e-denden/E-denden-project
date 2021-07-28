@@ -104,8 +104,7 @@ export default function LoanList( userGrade ) {
                 <React.Fragment key={item.id}>
                     <div  className="loan-card">
                         <div className="p-absolute">
-                            <i className="fas fa-chevron-right cursor-pointer"
-                            ></i>
+                            <i className="fas fa-chevron-right cursor-pointer"></i>
                         </div>
                         <div className="title-box font-noto">
                             <main>{item.bankName}</main>
