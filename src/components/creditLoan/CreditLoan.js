@@ -30,6 +30,7 @@ export default function CreditLoan() {
           setStep(0);
           setFinishedStep(true); 
         }} 
+        setUserGrade={setUserGrade}
       /> 
     }
     { 
